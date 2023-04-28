@@ -1,12 +1,36 @@
-site_name: 'Investing.com Technologies Docs'
-site_author: 'Bs'
-
+site_name: Bridge Queen
 theme:
-name: 'material'
-language: 'en'
-palette:
-primary: 'indigo'
-accent: 'indigo'
-font:
-text: 'Roboto'
-code: 'Roboto Mono'
+    icon:
+    admonition:
+      note: material/note-edit
+    name: material
+    logo: 'images/logo.jpg'
+    favicon: 'images/logo.jpg'
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+    features::
+      - search.suggest
+      - search.highlight
+      - content.tabs.link
+    palette:
+      scheme: default
+      primary: light blue
+
+plugins:
+  - search
+nav: 
+    - Project Requirements: "index.md"
+    - Software Design: "pages/software.md"
+    - Project Management: "pages/management.md"
+    - Teamwork: "pages/teamwork.md"
+    - Meeting Minutes: "pages/meeting.md"
+docs_dir: ./docblueprint
+site_dir: ./docs
+extra_css:
+ - css/logo.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
