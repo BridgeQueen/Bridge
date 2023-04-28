@@ -1,0 +1,12 @@
+site_name: 'Investing.com Technologies Docs'
+site_author: 'Bs'
+
+theme:
+name: 'material'
+language: 'en'
+palette:
+primary: 'indigo'
+accent: 'indigo'
+font:
+text: 'Roboto'
+code: 'Roboto Mono'
