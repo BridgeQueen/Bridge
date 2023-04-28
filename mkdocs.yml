@@ -1,7 +1,12 @@
 site_name: 'Investing.com Technologies Docs'
 site_author: 'Bs'
 
-theme:
+site_url: https://docs.BridgeQueen.com/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
+
 name: 'material'
 language: 'en'
 palette:
