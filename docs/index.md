@@ -1,9 +1,7 @@
 # Project Requirements
 
 ## Executive summary
-The Aquatic Biosphere Project of Canada engages individuals of all ages and backgrounds with Canada’s aquatic biosphere through presentations and media, community programs, and an upcoming public attraction. To that end, they hope to develop an Android/iOS application that uses augmented reality (AR) to enhance the device’s camera with fun and informative content about Canada’s nature. At the moment, the application is not funded. Our product will show potential investors that such an application is possible, hopefully securing funding for the Aquatic Biosphere Project to further develop the application.
-
-When a user first opens the product, they will confirm their location in order to ensure the accuracy of the displayed information. The product will then open the device camera, and the user will be free to use it to scan their environment. When the user brings a relevant object into the camera view, the product will augment the object with the appropriate AR objects. Note that the product will only be tailored to environments within the University of Alberta North Campus.
+BridgeQueen will provide a platform for social and competitive bridge in all it's many forms.  We will provide strong rating systems to evaluate player and partnership performance.  We will provide lessons, along with training and puzzle formats to promote learning on our site.  Game formats will include variable time controls to appeal to all attention spans.  Graphics and UI will be pleasant, intuitive, and adjustable to all known preferences.  Players will be able to socialize on the website and app, and we will provide a safe platform for kids, along with minimal moderation and censorship limitted to accounts demonstrating prejudice in any form, or extreme negative language that other playes report as detrimental to their experience. BridgeQueen will collaborate to enable individuals and organizations whos aims of promoting bridge align with BridgeQueen's goals.
 
 ## Product Documentation
 - **To view the User Manual:** [click here](https://github.com/UAlberta-CMPUT401/ar-biosphere/blob/main/User%20Manual.pdf)
@@ -11,14 +9,16 @@ When a user first opens the product, they will confirm their location in order t
 
 
 ## Project Glossary
-- **augment** - add additional virtual objects into the camera view so that the objects look as if they are there in 3d space
-- **camera view** - the live camera feed of a device that is made visible on the device’s screen
-- **device** - a handheld computing device with an integrated camera and a screen, running the android/ios operating system
-- **application** - software running on a device; in the context of the summary, it refers mostly to the proposed but undeveloped future application
-- **product** - the proof-of-concept application currently being developed
-- **AR object** - augmented-reality object; fun or educational information, which may come in the form of 3d models, lines of text, images, among other mediums
-- **environment** - a set location with visible objects that remain fairly consistent; this will be used to consistently test different camera views
-- **surface** - flat plane in the real world on which the AR objects are augmented on. It can be determined either by recognition or by the user; e.g. pond, marsh, park
+- **Play Bridge** - see model and requirement lists in green notebook for details
+- **Learn Bridge** - see model and requirement lists in green notebook for details
+- **Bridge Puzzles** -see model and requirement lists in green notebook for details
+- **Practice** - see model and requirement lists in green notebook for details
+- **Watch** - see model and requirement lists in green notebook for details
+- **Review (History)** - see model and requirement lists in green notebook for details
+- **Home** - Welcoming intuitive landing pages
+- **People** - see model and requirement lists in green notebook for details
+- **News** - see model and requirement lists in green notebook for details
+- **Settings** - allow users to select all known preferences, and provide accessible game modes and accessibility assists.
 
 
 ## User Stories
@@ -28,7 +28,7 @@ When a user first opens the product, they will confirm their location in order t
 | US 01.01    | As a User, I want to see a home screen that welcomes me to the app and has a link to the company's website, so I can gain more insights. | 3           | <li> User can see the homescreen and can interact with its links. </li>                                                                                                                               | Must                      |
 | US 01.02    | As a User, I want the system to identify my location, so that I can share it with the app.                                               | 3           | <li> User's location is identified. </li>                                                                                                                                                             | Must                      |
 | US 01.04    | As a user, I want to be able to be able to alternate between land and aquatic surfaces, so that the app can make assumptions on my surroundings and optimize the AR experience.               | 3           | <li> User's toggled surface is correctly marked as the AR objects's spawn location. </li>                                                                                                            | Must                      |
-| US 01.05    | As a User, I want the app to access my camera, so that it can display Augmented objects.                                                 | 2           | <li> User's Camera is opened.</li>                                                                                                                                                                    | Must                      |
+| US 01.05    | As a User, I want the app to access my camera, so that it can display Augmented objects.                                                 | 2           | <li> User's Camera is opened.</li>                                                                                               ♠                                                                     | Must                      |
 | US 01.06    | As an admin, I want to be able to add more 3D models, to increase user engagement.                                                       | 2           | <li> New models and their info are added to the DB. </li>                                                                                                                                             | Must                      |
 | US 02.01    | As a user, I want to be able to view augmented objects on my screen, so that I can interact with them.                                   | 5           | <li> User can see appropriately placed AR objects.                                                                                                                                                    | Must                      |
 | US 02.02    | As a user, I want to be able to view a brief description about the ecosystem I’m looking at, so that I know what to expect.              | 3           | <li> User can see information about the ecosystem in a new activity. </li>                                                                                                                            | Must                    |
