@@ -25,7 +25,9 @@ BridgeQueen will provide a platform for social and competitive bridge in all it'
 
 | Index       | User Story                                                                                                                               | Story Point | Acceptance test                                                                                                                                                                                       | MoSCoW                    |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| US 01.01    | As a User, I want to see a home screen that welcomes me to the app and has a link to the company's website, so I can gain more insights. | 3           | <li> User can see the homescreen and can interact with its links. </li>                                                                                                                               | Must                      |
+| BQ 02.01    | As a User, I want to have intuitive and clean landing pages with few distracting features for each game mode | 3           | <li> Signed off on by 3+ members of the executive team. </li>                                                                                                                               | Must                      |
+| BQ 02.01    | As a User, I want to have intuitive and clean landing pages with few distracting features for each game mode | 3           | <li> Signed off on by 3+ members of the executive team. </li>                                                                                                                               | Must                      |
+<!-- 
 | US 01.02    | As a User, I want the system to identify my location, so that I can share it with the app.                                               | 3           | <li> User's location is identified. </li>                                                                                                                                                             | Must                      |
 | US 01.04    | As a user, I want to be able to be able to alternate between land and aquatic surfaces, so that the app can make assumptions on my surroundings and optimize the AR experience.               | 3           | <li> User's toggled surface is correctly marked as the AR objects's spawn location. </li>                                                                                                            | Must                      |
 | US 01.05    | As a User, I want the app to access my camera, so that it can display Augmented objects.                                                 | 2           | <li> User's Camera is opened.</li>                                                                                               ♠                                                                     | Must                      |
@@ -40,21 +42,36 @@ BridgeQueen will provide a platform for social and competitive bridge in all it'
 | US 01.03    | As a user, I want to be able to enter my location manually or change it, if it is incorrect.                                             | 5           | <li> User's location information is changed to the new manually selected one. </li>                                                                                                                   | Would like, but won't get                      |
 | US 04.01    | As a user, I want to be able to identify a species (eg. A real life plant) through the app, so that I can recognize new species.         | 8           | <li> User can point camera at a species.</li> <li> User can see information on possible matches for that species. </li>                                                                               | Would like, but won't get |
 | US 04.02    | As a user, I want to be able to share my findings with others, so that I can help others find those objects/species.                     | 8           | <li> User can press share and select other users.</li> <li> Other users can receive and see the object and its information. </li>                                                                     | Would like but won't get  |
-| US 04.03    | As a user, I want to be able to detect water bodies and land with the camera, so that my augmented environment can automatically change when I move around                     | 5           | <li> User can point their camera to and away from water, and different augmented objects would appear.</li> <li> User's environmental surface would be automatically updated.</li>                                                                     | Would like but won't get  |
+| US 04.03    | As a user, I want to be able to detect water bodies and land with the camera, so that my augmented environment can automatically change when I move around                     | 5           | <li> User can point their camera to and away from water, and different augmented objects would appear.</li> <li> User's environmental surface would be automatically updated.</li>                                                                     | Would like but won't get  | -->
 
 
 ## Similar Products
-* [ARCore Elements](https://play.google.com/store/apps/details?id=com.google.ar.unity.ddelements): 
-    * Demo app by Google using ARCore platform. 
-    * The AR Elements are selectable and have sounds. Users can click on elements to view helpful tips for implementing
-User Movement, User Interface and Object Movement. 
-    * Selected elements come forward into the scene and the rest are pushed back. 
-We can implement a similar feature to allow users to select objects and view information about them to avoid clustering the scene.
-* [Augment](https://play.google.com/store/apps/details?id=com.ar.augment) and [AR Viewer](https://play.google.com/store/apps/details?id=com.ipol.arviewer.app):
-    * AR apps where user view premade models or import and view their own models (AR Viewer).
-    * Can be used to preview models before using in our own app.
-    * Augment has Capture button to take a picture of the scene with the AR objects like a normal camera. AR Viewer also allows video recording up to 4K.
-    * We can implement a similar feature to allow users to take photos and possibly record videos.
+* Chess.com: 
+    * clean intuitive UI with good options
+    * good rating system
+    * strong robots, available on and offline
+    * rated puzzles
+    * strong curriculum
+    * robots run client side
+    * ability to kibitz games
+    * interaction with twitch streamers, and efforts to aid others who work to promote bridge in real ways (not primarily financially)
+* BridgeBaseOnline:
+    * intuitive, simple, few distraction game modes
+    * Bridge robots
+    * Double Dummy can run client side
+    * Hand diagram formats
+    * teamgames and tournaments
+    * automatic partnership matching, partnership desks, and group entries
+* Swan Bridge
+    * Clean UI
+    * very nice audio and video features
+    * option to show full bidding box rather than interactive multi-click form
+    * Show cardbacks when possible
+* Cuebids.com
+    * UI that appeals to recent generations, rated bidding practice vs Double Dummy or similar
+* Funbridge
+    * option to show bids around the table in "decentralized bidding view"
+    * Generally not a strong platform, should largely be ignored
 
 ## Open Source Products
 * https://github.com/Unity-Technologies/arfoundation-samples/: AR app demo built with [Unity's AR Foundation](https://unity.com/)
