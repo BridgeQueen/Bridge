@@ -68,8 +68,10 @@ BridgeQueen will provide a platform for social and competitive bridge in all it'
 * Funbridge
     * option to show bids around the table in "decentralized bidding view"
     * Generally not a strong platform, should largely be ignored
-* intoBride
+* intoBridge
     * rated play
+* realBridge
+* lovebridge
 
 ## Open Source Products
 * https://github.com/Unity-Technologies/arfoundation-samples/: AR app demo built with [Unity's AR Foundation](https://unity.com/)
