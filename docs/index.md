@@ -37,7 +37,8 @@ BridgeQueen will provide a platform for social and competitive bridge in all it'
 | BQ 02.09    | As a User, I would like to be able to create an account and profile with settings that can transfer between my devices.  I would also like to be able to play as a guest. | 9           | <li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li>                                                                                                                               | Must                      |
 | BQ 02.10    | As a User, I would like to practice alone, with a partner, or with a team. | 7           | <li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li>                                                                                                                               | Must                      |
 | BQ 02.11    | As a User, I would like to be able to learn through my prefered medium, be that written, video, interactive, or some combination. | 9           | <li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li>                                                                                                                               | Must                      |
-| BQ 00.00    | As a User, I may be young, old, impaired (visually, auditorily, or other), adhd, impatient, slow, a kid, or many many other things.  I would like to be supported on this platform. | 0           | <li> Default is acceptance.  May be rejected at any time during development or deployment by any single member of the executive team. </li>                                                                                                                               | Must                      |
+| BQ 02.11    | As a User, I would like to be able to view relevant game statistics easily and see my statistics across a large assortment of hands. | 9           | <li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li>                                                                                                                               | Must                      |
+| BQ 00.00    | As a User, I may be young, old, impaired (visually, auditorily, or other), adhd,super adhd, even more adhd, as adhd as the person who wrote this sentence, impatient, slow, a kid, or many many other things.  I would like to be supported on this platform. | 0           | <li> Default is acceptance.  May be rejected at any time during development or deployment by any single member of the executive team. </li>                                                                                                                               | Must                      |
 
 
 ## Similar Products
@@ -67,6 +68,8 @@ BridgeQueen will provide a platform for social and competitive bridge in all it'
 * Funbridge
     * option to show bids around the table in "decentralized bidding view"
     * Generally not a strong platform, should largely be ignored
+* intoBride
+    * rated play
 
 ## Open Source Products
 * https://github.com/Unity-Technologies/arfoundation-samples/: AR app demo built with [Unity's AR Foundation](https://unity.com/)
