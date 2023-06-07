@@ -430,8 +430,7 @@
 
 <h1 id="project-requirements">Project Requirements</h1>
 <h2 id="executive-summary">Executive summary</h2>
-<p>The Aquatic Biosphere Project of Canada engages individuals of all ages and backgrounds with Canada’s aquatic biosphere through presentations and media, community programs, and an upcoming public attraction. To that end, they hope to develop an Android/iOS application that uses augmented reality (AR) to enhance the device’s camera with fun and informative content about Canada’s nature. At the moment, the application is not funded. Our product will show potential investors that such an application is possible, hopefully securing funding for the Aquatic Biosphere Project to further develop the application.</p>
-<p>When a user first opens the product, they will confirm their location in order to ensure the accuracy of the displayed information. The product will then open the device camera, and the user will be free to use it to scan their environment. When the user brings a relevant object into the camera view, the product will augment the object with the appropriate AR objects. Note that the product will only be tailored to environments within the University of Alberta North Campus.</p>
+<p>BridgeQueen will provide a platform for social and competitive bridge in all it's many forms.  We will provide strong rating systems to evaluate player and partnership performance.  We will provide lessons, along with training and puzzle formats to promote learning on our site.  Game formats will include variable time controls to appeal to all attention spans.  Graphics and UI will be pleasant, intuitive, and adjustable to all known preferences.  Players will be able to socialize on the website and app, and we will provide a safe platform for kids, along with minimal moderation and censorship limitted to accounts demonstrating prejudice in any form, or extreme negative language that other playes report as detrimental to their experience. BridgeQueen will collaborate to enable individuals and organizations whos aims of promoting bridge align with BridgeQueen's goals.</p>
 <h2 id="product-documentation">Product Documentation</h2>
 <ul>
 <li><strong>To view the User Manual:</strong> <a href="https://github.com/UAlberta-CMPUT401/ar-biosphere/blob/main/User%20Manual.pdf">click here</a></li>
@@ -439,14 +438,16 @@
 </ul>
 <h2 id="project-glossary">Project Glossary</h2>
 <ul>
-<li><strong>augment</strong> - add additional virtual objects into the camera view so that the objects look as if they are there in 3d space</li>
-<li><strong>camera view</strong> - the live camera feed of a device that is made visible on the device’s screen</li>
-<li><strong>device</strong> - a handheld computing device with an integrated camera and a screen, running the android/ios operating system</li>
-<li><strong>application</strong> - software running on a device; in the context of the summary, it refers mostly to the proposed but undeveloped future application</li>
-<li><strong>product</strong> - the proof-of-concept application currently being developed</li>
-<li><strong>AR object</strong> - augmented-reality object; fun or educational information, which may come in the form of 3d models, lines of text, images, among other mediums</li>
-<li><strong>environment</strong> - a set location with visible objects that remain fairly consistent; this will be used to consistently test different camera views</li>
-<li><strong>surface</strong> - flat plane in the real world on which the AR objects are augmented on. It can be determined either by recognition or by the user; e.g. pond, marsh, park</li>
+<li><strong>Play Bridge</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>Learn Bridge</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>Bridge Puzzles</strong> -see model and requirement lists in green notebook for details</li>
+<li><strong>Practice</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>Watch</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>Review (History)</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>Home</strong> - Welcoming intuitive landing pages</li>
+<li><strong>People</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>News</strong> - see model and requirement lists in green notebook for details</li>
+<li><strong>Settings</strong> - allow users to select all known preferences, and provide accessible game modes and accessibility assists.</li>
 </ul>
 <h2 id="user-stories">User Stories</h2>
 <table>
@@ -461,136 +462,149 @@
 </thead>
 <tbody>
 <tr>
-<td>US 01.01</td>
-<td>As a User, I want to see a home screen that welcomes me to the app and has a link to the company's website, so I can gain more insights.</td>
-<td>3</td>
-<td><li> User can see the homescreen and can interact with its links. </li></td>
+<td>BQ 02.01</td>
+<td>As a User, I want to have intuitive and clean landing pages with few distracting features for each game mode</td>
+<td>~8 (one for each landing page)</td>
+<td><li> Signed off on by 3+ members of the executive team, and not vetoed by any. </li></td>
 <td>Must</td>
 </tr>
 <tr>
-<td>US 01.02</td>
-<td>As a User, I want the system to identify my location, so that I can share it with the app.</td>
-<td>3</td>
-<td><li> User's location is identified. </li></td>
+<td>BQ 04.01</td>
+<td>As a User, I want to be able to engage in rated puzzles to improve all aspects of my play both alone, and with a partner</td>
+<td>22</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
 <td>Must</td>
 </tr>
 <tr>
-<td>US 01.04</td>
-<td>As a user, I want to be able to be able to alternate between land and aquatic surfaces, so that the app can make assumptions on my surroundings and optimize the AR experience.</td>
-<td>3</td>
-<td><li> User's toggled surface is correctly marked as the AR objects's spawn location. </li></td>
+<td>BQ 02.02</td>
+<td>As a User, I want to be able to play duplicate bridge and be scored</td>
+<td>7</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
 <td>Must</td>
 </tr>
 <tr>
-<td>US 01.05</td>
-<td>As a User, I want the app to access my camera, so that it can display Augmented objects.</td>
-<td>2</td>
-<td><li> User's Camera is opened.</li></td>
-<td>Must</td>
-</tr>
-<tr>
-<td>US 01.06</td>
-<td>As an admin, I want to be able to add more 3D models, to increase user engagement.</td>
-<td>2</td>
-<td><li> New models and their info are added to the DB. </li></td>
-<td>Must</td>
-</tr>
-<tr>
-<td>US 02.01</td>
-<td>As a user, I want to be able to view augmented objects on my screen, so that I can interact with them.</td>
+<td>BQ 02.03</td>
+<td>As a User, I want to be able to play in both classical and high speed settings, as well as play other varients such as just-declare, bidding only, potentially goulash, blindfold, and other varients as may be suggested in the future.</td>
 <td>5</td>
-<td><li> User can see appropriately placed AR objects.</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
 <td>Must</td>
 </tr>
 <tr>
-<td>US 02.02</td>
-<td>As a user, I want to be able to view a brief description about the ecosystem I’m looking at, so that I know what to expect.</td>
-<td>3</td>
-<td><li> User can see information about the ecosystem in a new activity. </li></td>
+<td>BQ 02.04</td>
+<td>As a User, I want to be able to find, talk to, and play with friends</td>
+<td>5</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
 <td>Must</td>
 </tr>
 <tr>
-<td>US 02.03.01</td>
-<td>As a user, I want to be able to click on an augmented object, so that I can learn information about it.</td>
-<td>3</td>
-<td><li> User is viewing an augmented object through their camera. </li></td>
-<td>Must</td>
-</tr>
-<tr>
-<td>US 02.03.02</td>
-<td>As a user, I want to be able to navigate to external links for each object, so that I can gather more information.</td>
-<td>3</td>
-<td><li>From the popup information screen, user can click on a link to go to an external site where they learn more about the object. </li></td>
+<td>BQ 02.05</td>
+<td>As a User, I want to be able to turn on video and voice features in some forums</td>
+<td>10</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
 <td>Should</td>
 </tr>
 <tr>
-<td>US 03.01</td>
-<td>As a user, I want to create an account, so I can save my progress and interaction information on the app</td>
+<td>BQ 02.06</td>
+<td>As a User, I want to be able to find and watch games and streams</td>
 <td>5</td>
-<td><li>User can select "Forgot Password" on the login screen.</li> <li> User can enter their email and receive a reset link. </li> <li> User can log in with their new password.</li></td>
-<td>Could</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
+<td>Must</td>
 </tr>
 <tr>
-<td>US 03.02</td>
-<td>As a user, I want to login to my account, to get a personalized experience.</td>
+<td>BQ 02.07</td>
+<td>As a User, I want to be able to review my history, and learn from old games played both by myself and by others.  I also would like teaching tools to aid with mentorship</td>
 <td>5</td>
-<td><li>User opens the app and can see a login screen.</li> <li> User can enter their credentials and log in to their account.</li> <li> User can choose "Forgot Password" to recover their account.</li></td>
-<td>Could</td>
+<td><li> Signed off on by 3+ members of the executive team, and not vetoed by any. </li></td>
+<td>Must</td>
 </tr>
 <tr>
-<td>US 03.03</td>
-<td>As a user, I want to be able to save object information in my records, so that I can read about it later.</td>
+<td>BQ 02.08</td>
+<td>As a User, I must be able to open the website or app, and begin playing with no delays within seconds of opening the app.  If this is not possible, I may get distracted.</td>
 <td>5</td>
-<td><li>User can select an object.</li> <li> User can choose to save selected object.</li> <li> User can see a list of saved objects.</li></td>
-<td>Could</td>
+<td><li> Default is acceptance.  May be rejected at any time during development or deployment by any single member of the executive team. </li></td>
+<td>Must</td>
 </tr>
 <tr>
-<td>US 01.03</td>
-<td>As a user, I want to be able to enter my location manually or change it, if it is incorrect.</td>
-<td>5</td>
-<td><li> User's location information is changed to the new manually selected one. </li></td>
-<td>Would like, but won't get</td>
+<td>BQ 02.09</td>
+<td>As a User, I would like to be able to create an account and profile with settings that can transfer between my devices.  I would also like to be able to play as a guest.</td>
+<td>9</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
+<td>Must</td>
 </tr>
 <tr>
-<td>US 04.01</td>
-<td>As a user, I want to be able to identify a species (eg. A real life plant) through the app, so that I can recognize new species.</td>
-<td>8</td>
-<td><li> User can point camera at a species.</li> <li> User can see information on possible matches for that species. </li></td>
-<td>Would like, but won't get</td>
+<td>BQ 02.10</td>
+<td>As a User, I would like to practice alone, with a partner, or with a team.</td>
+<td>7</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
+<td>Must</td>
 </tr>
 <tr>
-<td>US 04.02</td>
-<td>As a user, I want to be able to share my findings with others, so that I can help others find those objects/species.</td>
-<td>8</td>
-<td><li> User can press share and select other users.</li> <li> Other users can receive and see the object and its information. </li></td>
-<td>Would like but won't get</td>
+<td>BQ 02.11</td>
+<td>As a User, I would like to be able to learn through my prefered medium, be that written, video, interactive, or some combination.</td>
+<td>9</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
+<td>Must</td>
 </tr>
 <tr>
-<td>US 04.03</td>
-<td>As a user, I want to be able to detect water bodies and land with the camera, so that my augmented environment can automatically change when I move around</td>
-<td>5</td>
-<td><li> User can point their camera to and away from water, and different augmented objects would appear.</li> <li> User's environmental surface would be automatically updated.</li></td>
-<td>Would like but won't get</td>
+<td>BQ 02.11</td>
+<td>As a User, I would like to be able to view relevant game statistics easily and see my statistics across a large assortment of hands.</td>
+<td>9</td>
+<td><li> Signed off on by 2+ members of the executive team, and not vetoed by any. </li></td>
+<td>Must</td>
+</tr>
+<tr>
+<td>BQ 00.00</td>
+<td>As a User, I may be young, old, impaired (visually, auditorily, or other), adhd,super adhd, even more adhd, as adhd as the person who wrote this sentence, impatient, slow, a kid, or many many other things.  I would like to be supported on this platform.</td>
+<td>0</td>
+<td><li> Default is acceptance.  May be rejected at any time during development or deployment by any single member of the executive team. </li></td>
+<td>Must</td>
 </tr>
 </tbody>
 </table>
 <h2 id="similar-products">Similar Products</h2>
 <ul>
-<li><a href="https://play.google.com/store/apps/details?id=com.google.ar.unity.ddelements">ARCore Elements</a>: <ul>
-<li>Demo app by Google using ARCore platform. </li>
-<li>The AR Elements are selectable and have sounds. Users can click on elements to view helpful tips for implementing
-User Movement, User Interface and Object Movement. </li>
-<li>Selected elements come forward into the scene and the rest are pushed back. 
-We can implement a similar feature to allow users to select objects and view information about them to avoid clustering the scene.</li>
+<li>Chess.com: <ul>
+<li>clean intuitive UI with good options</li>
+<li>good rating system</li>
+<li>strong robots, available on and offline</li>
+<li>rated puzzles</li>
+<li>strong curriculum</li>
+<li>robots run client side</li>
+<li>ability to kibitz games</li>
+<li>interaction with twitch streamers, and efforts to aid others who work to promote bridge in real ways (not primarily financially)</li>
 </ul>
 </li>
-<li><a href="https://play.google.com/store/apps/details?id=com.ar.augment">Augment</a> and <a href="https://play.google.com/store/apps/details?id=com.ipol.arviewer.app">AR Viewer</a>:<ul>
-<li>AR apps where user view premade models or import and view their own models (AR Viewer).</li>
-<li>Can be used to preview models before using in our own app.</li>
-<li>Augment has Capture button to take a picture of the scene with the AR objects like a normal camera. AR Viewer also allows video recording up to 4K.</li>
-<li>We can implement a similar feature to allow users to take photos and possibly record videos.</li>
+<li>BridgeBaseOnline:<ul>
+<li>intuitive, simple, few distraction game modes</li>
+<li>Bridge robots</li>
+<li>Double Dummy can run client side</li>
+<li>Hand diagram formats</li>
+<li>teamgames and tournaments</li>
+<li>automatic partnership matching, partnership desks, and group entries</li>
 </ul>
 </li>
+<li>Swan Bridge<ul>
+<li>Clean UI</li>
+<li>very nice audio and video features</li>
+<li>option to show full bidding box rather than interactive multi-click form</li>
+<li>Show cardbacks when possible</li>
+</ul>
+</li>
+<li>Cuebids.com<ul>
+<li>UI that appeals to recent generations, rated bidding practice vs Double Dummy or similar</li>
+</ul>
+</li>
+<li>Funbridge<ul>
+<li>option to show bids around the table in "decentralized bidding view"</li>
+<li>Generally not a strong platform, should largely be ignored</li>
+</ul>
+</li>
+<li>intoBridge<ul>
+<li>rated play</li>
+</ul>
+</li>
+<li>realBridge</li>
+<li>lovebridge</li>
 </ul>
 <h2 id="open-source-products">Open Source Products</h2>
 <ul>
