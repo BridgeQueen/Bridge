@@ -1,0 +1,250 @@
+[
+    {
+        "title": "Play",
+        "icon": "bi-suit-club-fill",
+        "childrens": [
+            {
+                "title": "Casual",
+                "path": "/"
+            },
+            {
+                "title": "Ranked",
+                "path": "/"
+            },
+            {
+                "title": "Tournament",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Puzzles",
+        "icon": "bi-puzzle-fill",
+        "childrens": [
+            {
+                "title": "Beginner",
+                "path": "/"
+            },
+            {
+                "title": "Intermediate",
+                "path": "/"
+            },
+            {
+                "title": "Advanced",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Watch",
+        "icon": "bi-camera-reels-fill",
+        "childrens": [
+            {
+                "title": "Live",
+                "icon": "bi-camera-video",
+                "childrens": [
+                    {
+                        "title": "Casual streams",
+                        "path": "/"
+                    },
+                    {
+                        "title": "Tournament streams",
+                        "path": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Recorded",
+                "icon": "bi-film",
+                "childrens": [
+                    {
+                        "title": "Casual",
+                        "path": "/"
+                    },
+                    {
+                        "title": "Tournament",
+                        "path": "/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Learn",
+        "icon": "bi-mortarboard-fill",
+        "childrens": [
+            {
+                "title": "Intro to Bridge",
+                "path": "/"
+            },
+            {
+                "title": "Simple Bidding",
+                "path": "/"
+            },
+            {
+                "title": "Advanced Bidding",
+                "path": "/"
+            },
+            {
+                "title": "Glossary",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "History",
+        "icon": "bi-clock-fill",
+        "childrens": [
+            {
+                "title": "My history",
+                "path": "/"
+            },
+            {
+                "title": "Search player history",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "People",
+        "icon": "bi-people-fill",
+        "childrens": [
+            {
+                "title": "My Friends",
+                "path": "/"
+            },
+            {
+                "title": "Players of Note",
+                "path": "/"
+            },
+            {
+                "title": "Search for player",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "General",
+        "icon": "bi-gear-fill",
+        "childrens": [
+            {
+                "title": "Home",
+                "icon": "bi-house-fill",
+                "path": "/"
+            },
+            {
+                "title": "About",
+                "icon": "bi-info-circle-fill",
+                "path": "/about"
+            },
+            {
+                "title": "Contact",
+                "icon": "bi-phone-fill",
+                "childrens": [
+                    {
+                        "title": "Facebook",
+                        "icon": "bi-facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "icon": "bi-twitter"
+                    },
+                    {
+                        "title": "Instagram",
+                        "icon": "bi-instagram"
+                    }
+                ]
+            },
+            {
+                "title": "FAQ",
+                "icon": "bi-question-circle-fill"
+            }
+        ]
+    },
+    {
+        "title": "Account",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Login",
+                "path": "/login"
+            },
+            {
+                "title": "Register",
+                "path": "/register"
+            },
+            {
+                "title": "Forgot Password",
+                "path": "/forgot-password"
+            },
+            {
+                "title": "Reset Password",
+                "path": "/reset-password"
+            }
+        ]
+    },
+    {
+        "title": "Profile",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "Profile",
+                "path": "/profile"
+            },
+            {
+                "title": "Settings",
+                "childrens": [
+                    {
+                        "title": "Account",
+                        "path": "/settings/account"
+                    },
+                    {
+                        "title": "Billing",
+                        "childrens": [
+                            {
+                                "title": "Payment",
+                                "path": "/settings/billing/payment"
+                            },
+                            {
+                                "title": "Subscription",
+                                "path": "/settings/billing/subscription"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Notifications",
+                        "path": "/settings/notifications"
+                    }
+                ]
+            },
+            {
+                "title": "Logout",
+                "path": "/logout"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Options",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Search",
+                "path": "/search"
+            },
+            {
+                "title": "History",
+                "path": "/history"   
+            }
+        ]
+    },
+    {
+        "title": "Support",
+        "icon": "bi-question-circle-fill",
+        "path": "/support"
+    },
+    {
+        "title": "Report Bug",
+        "icon": "bi-bug",
+        "path": "/report-bug"
+    }
+]
